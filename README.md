@@ -17,6 +17,12 @@ MP2: Naive Bayes Model with K-Fold Cross Validation
 - Analyzed and discussed its performance and the significance of the results. The model achieved a score of 95.18% and 91.3% on a preliminary test set and the official test set of an academic Kaggle competition (placing 12th, the highest from a submission by a single individual), respectively. 
 - Dataset: text originated from reddit, classified into its originating subreddit (where it came from).
 
-MP3: 
+MP3: Convolutional Neural Networks & Images
+- Implemented a CNN to classify images. The model composed of two convolutional layers which apply filters to the input image to extract features, and two full connected layers to classify the extracted features. Following each convolutional layer is a max pooling layer to reduce the spatial size of the feature maps. The ReLU activation function is applied after each layer (Except the output layer, which uses the softmax activation function).
+- Analzed and discussed its performance and the significance of the results. The model achieved a score of 78.6% on the official test set of an academic Kaggle competition (placing 17th). 
+- Datasets:
+  - Japanese digits: categories of Japanese digits.
+  - clothing: categories of clothing ().
+- Submitted in collaboration with Hongtao Xu and Homayoun Sohrabpour Shafti. 
 
 note: datasets provided by Prof. Armanfard. 
